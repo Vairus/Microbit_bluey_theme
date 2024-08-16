@@ -1,6 +1,6 @@
 input.onButtonPressed(Button.A, function () {
     basic.showIcon(IconNames.Heart)
-    basic.showString("Hello Sofia!")
+    basic.showString("Hello!")
     music.setTempo(175)
     music.play(music.tonePlayable(784, music.beat(BeatFraction.Half)), music.PlaybackMode.UntilDone)
     music.play(music.tonePlayable(698, music.beat(BeatFraction.Half)), music.PlaybackMode.UntilDone)
